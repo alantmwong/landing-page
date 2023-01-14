@@ -1,5 +1,5 @@
 .header {
-    height: 550px;
+    height: 460px;
     background: #1F2937;
     color: white;
 
@@ -26,7 +26,7 @@ a {
 }
 
 .placeholder {
-    height: 200px;
+    height: 250px;
     width: 300px;
 }
 
@@ -70,7 +70,7 @@ button.header-button {
 }
 
 .header-content,
-.header-left {
+.information {
     outline: 2px;
     outline-style: solid;
     outline-color: red;
