@@ -1,0 +1,78 @@
+.header {
+    height: 550px;
+    background: #1F2937;
+    color: white;
+
+}
+
+.header-bar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.placeholder {
+    height: 200px;
+    width: 300px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    align-items: center;
+    gap: 30px;
+}
+/* https://en.wikipedia.org/wiki/File:Philadelphia_76ers_logo.svg */
+.logo {
+    width: 100px;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.header-left {
+    font-size: 48px;
+    margin: 20px;
+}
+
+.sub-text {
+    font-size: 18px;
+    margin-top: 15px;
+    filter: contrast(0.75);
+}
+
+button {
+    padding: 7px 20px;
+    border-radius: 8px;
+}
+
+button.header-button {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.header-content,
+.header-left {
+    outline: 2px;
+    outline-style: solid;
+    outline-color: red;
+}
+
