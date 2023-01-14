@@ -71,12 +71,13 @@ button.header-button {
 
 .players {
     display: flex;
+    flex-wrap: wrap;
 }
 /* Embiid: https://www.si.com/nba/2022/10/28/philadelphia-76ers-joel-embiid-james-harden-slow-start
 Harden: https://www.sportsnet.ca/nba/article/report-76ers-star-james-harden-contemplates-return-to-rockets/
 Maxey:  Creator: Bill Streicher Credit: Bill Streicher-USA TODAY Sports Copyright: Bill Streicher
 */
-.embiid-img, .harden-img, .maxey-img{
+.embiid-img, .harden-img, .maxey-img, .harris-img, .tucker-img{
     width: 200px;
     height: 200px;
 }
