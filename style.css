@@ -1,5 +1,5 @@
 .header {
-    height: 460px;
+    height: 500px;
     background: #1F2937;
     color: white;
 
@@ -69,8 +69,12 @@ button.header-button {
     font-weight: 800;
 }
 
-.header-content,
-.information {
+.players {
+    display: flex;
+}
+
+.starters,
+.players {
     outline: 2px;
     outline-style: solid;
     outline-color: red;
