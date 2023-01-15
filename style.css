@@ -3,7 +3,7 @@ body {
 }
 
 .header {
-    height: 500px;
+    height: 600px;
     background: #1F2937;
     color: white;
 
@@ -28,10 +28,10 @@ a {
     text-decoration: none;
     color: white;
 }
-
-.placeholder {
-    height: 250px;
-    width: 300px;
+/* https://sportsnaut.com/philadelphia-76ers-rumors-fans-want-to-see-2023/ */
+.court {
+    height: 300px;
+    width: auto;
 }
 
 .header-content {
@@ -97,10 +97,52 @@ Tucker: https://tribune.net.ph/2022/11/02/76ers-stripped-of-draft-picks/
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #474747;
+    margin: 15px;
 }
 
-.embiid,
+.starters {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin: 40px;
+}
+
 .players {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.quote-background {
+    height: 400px;
+    background: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    padding-top: 70px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+}
+
+.quoter {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 200px;
+}
+
+.call-to-action {
+    height: 300px;
+}
+.call-to-action {
     outline: 2px;
     outline-style: solid;
     outline-color: red;
