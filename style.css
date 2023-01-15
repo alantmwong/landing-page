@@ -60,7 +60,7 @@ a {
     filter: contrast(0.75);
 }
 
-button {
+button, .check-games-button {
     padding: 7px 20px;
     border-radius: 8px;
 }
@@ -164,6 +164,25 @@ Tucker: https://tribune.net.ph/2022/11/02/76ers-stripped-of-draft-picks/
     opacity: 0.75;
 }
 
+button.check-games-button {
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    border: 2px solid white;
+    background: #3882F6;
+}
+
+.footer {
+    height: 100px;
+    background: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    color: white;
+}
 
 .call-to-action-background
 .call-quote {
