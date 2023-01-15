@@ -141,8 +141,32 @@ Tucker: https://tribune.net.ph/2022/11/02/76ers-stripped-of-draft-picks/
 
 .call-to-action {
     height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.call-to-action {
+
+.call-to-action-background {
+    display: flex;
+    background: #3882F6;
+    padding: 40px;
+    border-radius: 9px;
+}
+
+.call-quote {
+    font-size: 30px;
+    color: white;
+    margin-right: 20px;
+}
+
+.call-subtext {
+    font-size: 18px;
+    opacity: 0.75;
+}
+
+
+.call-to-action-background
+.call-quote {
     outline: 2px;
     outline-style: solid;
     outline-color: red;
